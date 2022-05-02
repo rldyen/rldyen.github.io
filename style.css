@@ -1,0 +1,223 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.boxBorder1{
+	width: auto;
+	padding: 450px;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+
+#titleName{
+	display: flex;
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	align-items: center;
+  	justify-content: center;
+}
+
+.boxBorder2{
+	width: auto;
+	padding: 50px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+
+#profilePic{
+	padding-right: 50px;
+	margin-left: 20%;
+	margin-bottom: auto;
+	margin-top: auto;
+	float: left;
+	max-width: 250px;
+	height: auto;
+}
+
+.aboutContent{
+	vertical-align: middle;
+	overflow: hidden
+}
+
+#aboutTitle{
+	font-size: 25px;
+}
+
+#aboutText{
+	text-align: justify;
+	margin-right: 20%;
+}
+
+#educationTitle{
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+grid-container{
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+grid-item{
+	margin-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 5%;
+  	display: flex;     
+  	align-items: center;     
+  	justify-content: center;  
+}
+
+.schools img{
+	border-radius: 50%;
+	max-width: 100%;
+    height:auto;
+}
+
+grid-container-text{
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+grid-item-text{
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+  	display: flex;     
+  	align-items: center;     
+  	justify-content: center;  
+  	text-align: center;
+  	background: rgba(0, 0, 0, 0.5);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.hobbies{
+	max-width: 1000px;
+  	margin: auto;
+  	font-family: 'Century Gothic', sans-serif;
+  	color: white;
+  	overflow: hidden
+}
+
+#hobbiesTitle{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.hobbyName{
+	text-align: center;
+}
+
+.hobbiesPicture{
+	max-width: 100%;
+	height: auto;
+}
+
+.row{
+  	margin: 10 - 18px;
+  	text-align: justify;
+}
+
+.row,
+.row > .column {
+  	padding: 10px;
+}
+
+.column{
+	float: left;
+  	width: 25%;
+}
+
+.row: after{
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.content{
+  	background: rgba(0, 0, 0, 0.5);
+  	padding: 10px;
+}
+
+@media screen and (max-width: 900px){
+	.column{
+    	width: 50%;
+  	}
+}
+
+@media screen and (max-width: 600px){
+	.column{
+    	width: 100%;
+  	}
+}
+
+.contactDetails{
+	padding: auto;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#contactTitle{
+	padding-top: 2%;
+	font-size: 25px;
+}
+
+.contactDetails p{
+	text-align: center;
+	overflow: hidden
+}
+
+
+.socialMediaSites{
+	margin: 0;
+	padding: 0;
+}
+
+.socialMediaIcons li{
+	display: inline-block;
+	margin: 10px;
+	list-style: none;
+	padding-bottom: 30px
+}
+
+.socialMediaIcons li a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	transition: all ease-in-out 250ms;
+}
+
+.socialMediaIcons li a:hover{
+	color: #b9b9b9;
+}
+
+
+
+
